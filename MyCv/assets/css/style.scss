@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+$bgColorMain: #4F5F73;
+$bgColorSecond: #212C3E;
+$NameColor: #E4DD1A;
+
+html {
+    background-color: $bgColorMain;
+    font-family: 'Roboto', 'Helvetica Neue', ;
+    font-size: 12px;
+}
+
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-end;
+
+
+
+    &__user {
+
+
+        background-color: $bgColorSecond;
+        margin-top: 15px;
+    }
+}
+
+.user {
+
+    width: 1000px;
+
+    &__name {
+        h1 {
+            color: $NameColor;
+            font-size: 3rem;
+            font-weight: 200;
+        }
+    }
+}

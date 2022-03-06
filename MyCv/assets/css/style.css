@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #4F5F73;
+  font-family: "Roboto", "Helvetica Neue";
+  font-size: 12px;
+}
+
+.main-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.main-box__user {
+  background-color: #212C3E;
+  margin-top: 15px;
+}
+
+.user {
+  width: 1000px;
+}
+
+.user__name h1 {
+  color: #E4DD1A;
+  font-size: 3rem;
+  font-weight: 200;
+}
+/*# sourceMappingURL=style.css.map */
