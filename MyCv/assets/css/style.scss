@@ -25,7 +25,7 @@ html {
     }
 }
 
-a{
+a {
     color: $NameColor;
 }
 
@@ -170,6 +170,29 @@ a{
     margin-top: 30px;
     width: 100%;
 }
+
+.training-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    &__container {
+        width: 30%;
+    }
+
+    &__title {}
+
+    &__image {
+        margin-top: 5px;
+        img{
+            width: 100%;
+        }
+    }
+
+    &__content {}
+}
+
 
 @media (max-width: 700px) {
 
