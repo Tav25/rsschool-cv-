@@ -4,14 +4,27 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 html {
   font-family: "Roboto", "Helvetica Neue";
   font-size: 12px;
 }
 
+@media (max-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+a {
+  color: #E4DD1A;
+}
+
 .main-box {
   width: 100%;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,15 +43,23 @@ html {
   margin-top: 15px;
 }
 
-.main-box__user {
-  margin: 15px;
-}
-
 .main-container {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #212C3E;
 }
 
 .user {
+  width: calc(100% - 40px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +70,7 @@ html {
           align-items: flex-start;
   -ms-flex-line-pack: start;
       align-content: flex-start;
+  margin-top: 20px;
 }
 
 .user__name {
@@ -63,17 +85,20 @@ html {
 
 .user__block-data {
   margin-top: 30px;
-  margin-right: 30px;
+}
+
+.top-container {
+  width: calc(60% - 10px);
 }
 
 .block-data {
-  width: 97%;
+  width: 100%;
 }
 
 .block-data__title h2 {
   color: #d0d1d1;
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .block-data__content {
@@ -107,6 +132,8 @@ html {
 
 .container-skills__uc {
   margin-right: 10px;
+  min-width: 120px;
+  max-width: 200px;
 }
 
 .container-skills__uc li {
@@ -125,25 +152,30 @@ html {
   margin-top: 14px;
 }
 
-.fit-picture {
+.log-picture {
   height: 25px;
   margin-right: 5px;
 }
 
 .hero {
-  width: 495px;
+  width: calc(40% - 10px);
+  margin-left: 20px;
 }
 
 .hero-picture {
-  width: 495px;
-  margin-right: 0px;
+  margin-top: 30px;
+  width: 100%;
 }
 
-.skills {
-  width: 495px;
-}
-
-.summary {
-  width: 495px;
+@media (max-width: 700px) {
+  html {
+    font-size: 10px;
+  }
+  .top-container {
+    width: 100%;
+  }
+  .hero {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
