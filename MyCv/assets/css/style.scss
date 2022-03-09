@@ -43,6 +43,7 @@ a {
 
     &__main-container {
         margin-top: 15px;
+        margin-bottom: 50px;
     }
 
 
@@ -71,6 +72,7 @@ a {
     align-content: flex-start;
 
     margin-top: 20px;
+    margin-bottom: 20px;
 
     &__name {
         width: 100%;
@@ -177,20 +179,26 @@ a {
     justify-content: space-around;
     align-items: flex-start;
 
+
     &__container {
         width: 30%;
+        margin-bottom: 30px;
+
     }
 
     &__title {}
 
     &__image {
         margin-top: 5px;
-        img{
+
+        img {
             width: 100%;
         }
     }
 
-    &__content {}
+    &__content {
+        font-size: 1.3rem;
+    }
 }
 
 
