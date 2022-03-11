@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alexander Turbin</title>
+</head>
+
+<body>
+
+    <div class="centring">
+        <div class="leftCont">
+            <header>
+                <h1>Alexander Turbin</h1>
+            </header>
+            <div class="information">
+                <main>
+                    <div>
+                        <h2>Summary:</h2>
+                        <span>Engaged in amateur-level development for personal and freelance needs. Easy to learn.
+                            Sometimes,
+                            know how to solve a problem, but you don't know the tools, that's why I'm constantly
+                            learning.
+                        </span>
+                    </div>
+                    <br>
+                    <h2>Skills:</h2>
+                    <div class="container">
+                        <div class="uc">
+                            <h3>Web tech.:</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+
+                            </ul>
+                        </div>
+                        <div class="uc">
+                            <h3>Scripting languages:</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>JS</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="uc">
+                            <h3>IDE:</h3>
+                            <ul>
+                                <li>VS Code</li>
+                                <li>SublimeText</li>
+
+                            </ul>
+                        </div>
+                        <div class="uc">
+                            <h3>Others:</h3>
+                            <ul>
+                                <li>Spark Ar Studio</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe Premier pro</li>
+                                <li>Adobe After Effects</li>
+                            </ul>
+                        </div>
+                        <div class="uc">
+                            <h3>Version Control:</h3>
+                            <ul>
+                                <li>GIT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Code:</h2>
+                        <pre>
+    let GameAction = {
+        checkEndGame() {
+          if (GameService.isGame === false) {
+            this.endGameFunction()
+          } else {
+            GameCore.mainCycle()
+          }
+        },
+    
+        mainButtonAction() {
+          if (GameService.mainButtonPosition === 0) { 
+            GameCore.mainCycle()
+          }
+          if (GameService.mainButtonPosition === 1) { 
+            GameService.endGame('abort')
+            this.checkEndGame()
+          }
+          if (GameService.mainButtonPosition === 2) { 
+            this.globalReset()
+          }
+          GameService.tapMainButton()
+        }, .....
+</pre>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Experience:</h2>
+                        <span> Previously I developed sites on Joomla, now I'm a freelancer, creating masks and games
+                            for
+                            Instagram (Spark ar Studio). To automate personal work I use Python (Jupyter
+                            notebook).</span>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>Education:</h2>
+                        <span> Plekhanov Russian University of Economics Minsk branch (Applied Computer Science in
+                            Management)
+                            2004-2009 </span>
+                    </div>
+                    <br>
+                    <div>
+                        <h2>English:</h2>
+                        <span>A1-A2</span>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="leftCont">
+            <img class="imgHero" src="./hero.png" alt="hero">
+            <div class="information">
+                <h2>Training projects:</h2>
+                <ul>
+                    <li><a href="https://tav25.github.io/gem-puzzle/gem-puzzle/dist/">Gem-puzzle 15</a></li>
+                    <li><a href="https://tav25.github.io/react-game/">React-game</a></li>
+                    <li><a href="https://tav25.github.io/gem-puzzle/calculator/">Calculator</a></li>
+                    <li><a href="https://tav25.github.io/gem-puzzle/Virtual%20Keyboard/">Virtual Keyboard</a></li>
+                </ul>
+            </div>
+            <div class="information">
+                <h2>Contact information:</h2>
+                <ul>
+                    <li>Email adress: <a href="mailto:turbin28@gmail.com">turbin28@gmail.com</a></li>
+                    <li>Phone number: +375-33-356-02-67</li>
+                    <li>Telegram: <a href="https://t.me/tav25">https://t.me/tav25</a></li>
+                    <li>
+                        <address>
+                            <div>City: Baranovichi, Belarus</div>
+                        </address>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="leftCont">
+        </div>
+
+        <footer>
+            <nav>
+                <span><a href="https://rs.school/js/"><img class="imgHero" src="./logo.png" alt="logo"></a></span>
+                <span>2022</span>
+                <span><a href="https://github.com/Tav25/">@tav25</a></span>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
