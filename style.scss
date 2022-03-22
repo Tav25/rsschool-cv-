@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+body {
+    background-color: #4F5F73;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+address {
+    font-style: normal;
+}
+
+nav {
+    // background-color: #fff;
+    width: 528px;
+    margin: 10px;
+    color: #E4DD1A;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    a{
+        color: #E4DD1A;
+    }
+}
+
+.centring {
+    max-width: 1200px;
+    min-width: 600px;
+    // width: 1200px;
+    // height: 990px;
+    margin: 0 auto;
+    background-color: #212C3E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .leftCont {
+        // background-color: #fff;
+        width: 528px;
+        margin: 10px;
+
+        .information {
+            // background-color: #fff;
+            // font-style: normal;
+            color: #D2D2D2;
+            width: auto;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+
+}
+
+.container {
+    // background-color: rgb(90, 54, 54);
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+
+    .uc {
+        // flex: 0 1 auto;
+        width: 175px;
+        // background-color: #fff;
+        margin-top: 5px;
+    }
+
+}
+
+
+
+code {
+    font-size: 12px;
+    color: #E4DD1A;
+}
+
+a {
+    color: #D2D2D2;
+}
+
+h1 {
+    margin: 0px;
+    color: #E4DD1A;
+}
+
+h2 {
+    margin: 0px;
+    // color: #E4DD1A;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 0px;
+    // color: #E4DD1A;
+    font-size: 18px;
+}

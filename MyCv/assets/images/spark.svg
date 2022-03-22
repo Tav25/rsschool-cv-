@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="502" height="512" viewBox="0 0 502 512">
+  <defs>
+    <clipPath id="clip-spark">
+      <rect width="502" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="spark" clip-path="url(#clip-spark)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-48.419 -44.909)">
+      <path id="Path_1" data-name="Path 1" d="M31.385,102.754,209.829,21.511l178.926,81.9L30.923,265.818Z" transform="translate(90 36)" fill="#1be0ba"/>
+      <path id="Path_2" data-name="Path 2" d="M-69.335-32.89,109.545-113V49.04Z" transform="translate(190 332.98)" fill="#007acc"/>
+      <path id="Path_3" data-name="Path 3" d="M109.545-32.89-69.335-113V49.04Z" transform="translate(368.335 332.98)" fill="#0098ff"/>
+      <path id="Path_4" data-name="Path 4" d="M388.293,184.575,209.849,265.818l-178.926-81.9L388.755,21.511Z" transform="translate(89.161 278.489)" fill="#ff5b82"/>
+    </g>
+  </g>
+</svg>

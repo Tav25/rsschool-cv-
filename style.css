@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  background-color: #4F5F73;
+  font-family: 'Roboto', sans-serif;
+}
+
+address {
+  font-style: normal;
+}
+
+nav {
+  width: 528px;
+  margin: 10px;
+  color: #E4DD1A;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav a {
+  color: #E4DD1A;
+}
+
+.centring {
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 0 auto;
+  background-color: #212C3E;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.centring .leftCont {
+  width: 528px;
+  margin: 10px;
+}
+
+.centring .leftCont .information {
+  color: #D2D2D2;
+  width: auto;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .uc {
+  width: 175px;
+  margin-top: 5px;
+}
+
+pre {
+  font-size: 12px;
+  color: #E4DD1A;
+}
+
+a {
+  color: #D2D2D2;
+}
+
+h1 {
+  margin: 0px;
+  color: #E4DD1A;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
